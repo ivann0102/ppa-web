@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/user/Documents/projects/usv/web/sandbox/Lab4/NivelAccessDate_CodeFirst/NivelAccessDate_DBFirst.csproj": {}
+  },
+  "projects": {
+    "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj",
+        "projectName": "LibrarieModele",
+        "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/Documents/projects/usv/web/sandbox/Lab4/NivelAccessDate_CodeFirst/NivelAccessDate_DBFirst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documents/projects/usv/web/sandbox/Lab4/NivelAccessDate_CodeFirst/NivelAccessDate_DBFirst.csproj",
+        "projectName": "NivelAccessDate_DBFirst",
+        "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/NivelAccessDate_CodeFirst/NivelAccessDate_DBFirst.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/NivelAccessDate_CodeFirst/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj": {
+                "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj"
+              },
+              "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/Repository_CodeFirst.csproj": {
+                "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/Repository_CodeFirst.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/Repository_CodeFirst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/Repository_CodeFirst.csproj",
+        "projectName": "Repository_CodeFirst",
+        "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/Repository_CodeFirst.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/Repository_CodeFirst/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj": {
+                "projectPath": "/home/user/Documents/projects/usv/web/sandbox/Lab4/LibrarieModele/LibrarieModele.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
